@@ -1,7 +1,7 @@
 # Ruled-Password-Generator
 
 [![GitHub Workflow Status](https://img.shields.io/github/workflow/status/hkcomori/ruled-password-generator/test)](https://github.com/hkcomori/ruled-password-generator/actions/workflows/deploy.yml)
-[![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/hkcomori/ruled-password-generator?label=version)](https://pypi.org/ruled-password-generator/)
+[![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/hkcomori/ruled-password-generator?label=version)](https://github.com/hkcomori/ruled-password-generator/releases/latest)
 [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/ruled-password-generator)](https://pypi.org/project/ruled-password-generator/)
 [![GitHub](https://img.shields.io/github/license/hkcomori/ruled-password-generator)](https://github.com/hkcomori/ruled-password-generator/blob/main/LICENSE)
 
@@ -63,4 +63,4 @@ passwords = pwg.bulk_generate(20, unique=True)
 Contributions are welcomed via PR.
 
 ## License
- * [MIT](LICENSE)
+ * [MIT](https://github.com/hkcomori/ruled-password-generator/blob/main/LICENSE)
