@@ -1,12 +1,8 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-
 import io
 import os
 import sys
 
-from setuptools import find_packages, setup
-
+from setuptools import setup
 
 # Package meta-data.
 NAME = 'ruled-password-generator'
@@ -35,8 +31,9 @@ setup(
     author=AUTHOR,
     author_email=EMAIL,
     url=URL,
-    packages=find_packages(exclude=('tests',)),
+    py_modules=['ruled_password_generator'],
     install_requires=required,
+    python_requires='>=3.7',
     extras_require={
         'cpu': [],
         'gpu': [],
